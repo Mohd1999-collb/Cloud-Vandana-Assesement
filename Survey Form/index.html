@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>Customer Survey Form</h1>
+    <div class="conatiner">
+      <form action="">
+        <!-- First name -->
+        <div class="form">
+          <div>
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              class="info"
+              placeholder="Enter your first name"
+              name="fname"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <!-- Last name -->
+          <div>
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              class="info"
+              placeholder="Enter your last name"
+              autocomplete="off"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form">
+          <!-- Date of birth -->
+          <div>
+            <label for="dob">Date of Birth</label>
+            <input
+              type="date"
+              id="dob"
+              class="info"
+              placeholder="Enter your date of birth"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="info"
+              placeholder="Enter your email"
+              autocomplete="off"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form">
+          <!-- Profession -->
+          <div>
+            <label for="prof">Profession</label>
+            <input
+              type="text"
+              id="prof"
+              class="info"
+              placeholder="Profession"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <!-- Mobile number -->
+          <div>
+            <label for="number">Mobile Number</label>
+            <input
+              type="number"
+              id="number"
+              class="info"
+              placeholder="Enter your mobile number"
+              autocomplete="off"
+              required
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <!-- Country -->
+        <div class="content">
+          <label for="country">Country</label>
+          <select id="country">
+            <option value="India">India</option>
+            <option value="Austrelia">Austrelia</option>
+            <option value="England">England</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Canada">Canada</option>
+          </select>
+        </div>
+
+        <div class="content">
+          <p>Gender</p>
+          <input type="checkbox" name="val" id="male" value="Male" />
+          <label for="Male">Male</label>
+          <input type="checkbox" name="val" id="female" value="Female" />
+          <label for="female">Female</label>
+          <input type="checkbox" name="val" id="other" value="Other" />
+          <label for="other">Other</label>
+        </div>
+
+        <div class="content">
+          <p>Is this first time you are using our products & service?</p>
+          <input type="radio" name="val1" id="yes" value="Yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="val1" id="no" value="No" />
+          <label for="no">No</label>
+        </div>
+
+        <div class="content">
+          <p>Would you suggestion to your friends and colleague?</p>
+          <input type="radio" name="val2" id="clg-sugg-1" value="Yes" />
+          <label for="clg-sugg-1">Yes</label>
+          <input type="radio" name="val2" id="clg-sugg-2" value="No" />
+          <label for="clg-sugg-2">No</label>
+        </div>
+
+        <div class="content">
+          <p>How satisfied are you with our compony overall?</p>
+          <input type="radio" name="val3" id="satisfied" value="Satisfied" />
+          <label for="satisfied">Satisfied</label>
+          <input type="radio" name="val3" id="undecided" value="Undecided" />
+          <label for="undecided">Undecided</label>
+          <input
+            type="radio"
+            name="val3"
+            id="unsatisfied"
+            value="Unsatisfied"
+          />
+          <label for="unsatisfied">Unsatisfied</label>
+        </div>
+
+        <div class="content textarea">
+          <label for="textAria"
+            >Do you have suggestion to improve our service?</label
+          >
+          <br />
+          <br />
+          <textarea name="" id="textAria" cols="80" rows="10"></textarea>
+        </div>
+
+        <div class="content btn">
+          <input type="submit" class="form-btn btn1" id="b" />
+          <button type="reset" class="form-btn" id="btn2">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      ©2023 Customer Survey Form. All Rights Reserved I Designed By
+      <span>Mohd Talib</span>
+    </footer>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

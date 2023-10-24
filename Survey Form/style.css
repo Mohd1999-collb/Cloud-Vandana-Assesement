@@ -1,0 +1,102 @@
+body {
+    /* background-color: skyblue; */
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% ); */
+    background-image: linear-gradient(179deg, rgba(0, 0, 0, 1) 9.2%, rgba(127, 16, 16, 1) 103.9%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.conatiner {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 4px 31px 5px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: -1px 4px 31px 5px rgba(0, 0, 0, 0.69);
+    box-shadow: -1px 4px 31px 5px rgba(0, 0, 0, 0.69);
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form>div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.info {
+    height: 4em;
+    width: 20em;
+    text-align: center;
+    outline: none;
+    margin-top: 15px;
+}
+
+.content {
+    margin-left: 29px;
+    font-size: 20px;
+}
+
+.textarea {
+    margin-top: 18px;
+    resize: none;
+}
+
+textarea {
+    resize: none;
+}
+
+#country {
+    margin-left: 20px;
+    width: 15em;
+    height: 2em;
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-btn {
+    width: 10em;
+    height: 3em;
+    margin: 15px 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn1 {
+    background-color: black;
+}
+
+#btn2 {
+    background-color: red;
+}
+
+footer {
+    margin: 18px 5px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+span {
+    color: black;
+}
